@@ -7,8 +7,8 @@ class Triangle
     @length3 = length3
   end
 
-  def kind(triangle)
-    
+  def kind(length1, length2, length3)
+
   end
 
 end
