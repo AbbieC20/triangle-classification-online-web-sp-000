@@ -16,7 +16,7 @@ class Triangle
     elsif (length1 + length2) < length3 || (length1 + length3) < length2 || (length2 + length3) < length1
       begin
        raise TriangleError
-     rescue TriangleError
+      rescue TriangleError
      end
     elsif length1 == length2 && length2 == length3
       return :equilateral
@@ -28,6 +28,9 @@ class Triangle
   end
 
   class TriangleError < StandardError
+    def message
+      :TriangleError 
+    end
   end
 
 end #full class end
