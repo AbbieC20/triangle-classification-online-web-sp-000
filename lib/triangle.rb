@@ -12,7 +12,7 @@ class Triangle
       return #TriangleError
     elsif # (length1 + length2) < length3 OR (length1 + length3) < length2 OR (length2 + length3) < length1
       return #TriangleError
-    elsif #all sides are equal
+    elsif length1 == length2 == length3
       return :equilateral
     elsif # 2 sides are the same
       return :scalene
