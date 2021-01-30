@@ -8,7 +8,13 @@ class Triangle
   end
 
   def kind(length1, length2, length3)
-
+    if 
+     #all sides are equal
+      return :equilateral
+    elsif # 2 sides are the same
+      return :scalene
+    else #all sides are different
+      return :isosceles
   end
 
 end
