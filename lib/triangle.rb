@@ -7,12 +7,7 @@ class Triangle
     @length3 = length3
   end
 
-  def equilateral
+  def kind 
   end
 
-  def isosceles
-  end
-
-  def scalene
-  end
 end
