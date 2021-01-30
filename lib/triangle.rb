@@ -7,7 +7,7 @@ class Triangle
     @length3 = length3
   end
 
-  def kind(triangle)
+  def kind
     if length1 < 0 ||length2 < 0 || length3 < 0 #all the lengths are not positive OR less than 0
       begin
        raise TriangleError
