@@ -29,9 +29,6 @@ class Triangle
   end
 
   class TriangleError < StandardError
-    def message
-      :TriangleError
-    end
   end
 
 end #full class end
