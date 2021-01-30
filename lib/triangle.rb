@@ -8,8 +8,11 @@ class Triangle
   end
 
   def kind(length1, length2, length3)
-    if 
-     #all sides are equal
+    if #all the lengths are not positive OR less than 0
+      return #TriangleError
+    elsif #
+      return #TriangleError
+    elsif #all sides are equal
       return :equilateral
     elsif # 2 sides are the same
       return :scalene
