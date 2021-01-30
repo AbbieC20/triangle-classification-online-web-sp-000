@@ -18,6 +18,7 @@ class Triangle
       return :scalene
     else #all sides are different
       return :isosceles
+    end
   end
 
 end
