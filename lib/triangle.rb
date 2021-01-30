@@ -13,11 +13,11 @@ class Triangle
     elsif (length1 + length2) < length3 || (length1 + length3) < length2 || (length2 + length3) < length1
       return TriangleError
     elsif length1 == length2 == length3
-      return :equilateral
+      return "equilateral"
     elsif length1 == length2 || length1 == length3 || length2 == length3
-      return :scalene
+      return "scalene"
     else #all sides are different
-      return :isosceles
+      return 'isosceles"
     end
   end
 
