@@ -12,6 +12,7 @@ class Triangle
       begin
        raise TriangleError
      rescue TriangleError
+        puts error.message
      end
     elsif (length1 + length2) < length3 || (length1 + length3) < length2 || (length2 + length3) < length1
       begin
@@ -29,7 +30,7 @@ class Triangle
 
   class TriangleError < StandardError
     def message
-      :TriangleError 
+      :TriangleError
     end
   end
 
