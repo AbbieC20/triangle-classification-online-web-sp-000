@@ -21,9 +21,9 @@ class Triangle
     elsif length1 == length2 && length2 == length3
       return :equilateral
     elsif length1 == length2 || length1 == length3 || length2 == length3
-      return :scalene
-    else #all sides are different
       return :isosceles
+    else #all sides are different
+      return :scalene
     end
   end
 
