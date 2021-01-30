@@ -14,7 +14,7 @@ class Triangle
       return #TriangleError
     elsif length1 == length2 == length3
       return :equilateral
-    elsif # 2 sides are the same
+    elsif length1 == length2 || length1 == length3 || length2 == length3
       return :scalene
     else #all sides are different
       return :isosceles
