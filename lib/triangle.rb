@@ -10,7 +10,7 @@ class Triangle
   def kind(length1, length2, length3)
     if #all the lengths are not positive OR less than 0
       return #TriangleError
-    elsif #
+    elsif # (length1 + length2) < length3 OR (length1 + length3) < length2 OR (length2 + length3) < length1
       return #TriangleError
     elsif #all sides are equal
       return :equilateral
