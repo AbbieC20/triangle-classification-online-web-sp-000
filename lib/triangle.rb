@@ -11,12 +11,10 @@ class Triangle
     if length1 < 0 ||length2 < 0 || length3 < 0 #all the lengths are not positive OR less than 0
       begin
        raise TriangleError
-     rescue TriangleError
      end
     elsif (length1 + length2) < length3 || (length1 + length3) < length2 || (length2 + length3) < length1
       begin
        raise TriangleError
-     rescue TriangleError
      end
     elsif length1 == length2 && length2 == length3
       return :equilateral
